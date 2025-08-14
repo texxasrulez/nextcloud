@@ -13,14 +13,19 @@ This plugin is released under the GNU General Public License Version 3
 Install
 -------
 
+** Roundcube Requirements **
 * Place this plugin folder into plugins directory of Roundcube
-* Add nextcloud to $config['plugins'] in your Roundcube config
-* Upload contents of upload_to_nextcloud_apps into your apps directory for Nextcloud and enable plugin within Nextcloud.
+* Rename config.inc.php.dist to config.inc.php. Enter your domain, with trailing slash, this is important.
+* Create a 24 character password key to add to nextcube_3des_key portion of config.inc.php.
+* Add nextcloud to $config['plugins'] in your Roundcube config.
 
-NB: When downloading the plugin from GitHub you will need to create a
-directory called nextcloud and place the files in there,
-ignoring the root directory in the downloaded archive directory in the
-downloaded archive.
+** Nextcloud Requirements **
+* Upload the contents of 'upload_to_nextcloud_app' folder to your nextcloud installation as follows:
+  /cloud_root_dir/apps/nextcube_external/
+  
+* The exact key above will need to be added to nextcloud's config.php with this line:
+  'nextcube_3des_key' => 'same_24_key_as_roundcube_plugin',
+* Enable 'External login for Roundcube' app.  
 
 * To avoid cross-domain errors you should use the same url (domain), no subdomains either, for Roundcube and NextCloud (See the [reverse proxy documentation](reverseproxy.md), to use nextcloud and Roundcube on separate servers with Apache)
 * Add and enable "roundcube_external" apps to your nextcloud instance (in nextcloud/apps/)
@@ -29,7 +34,7 @@ Configuration
 -------------
 
 * In Roundcube plugin you need to rename config.inc.php.dist to config.inc.php. And configure your nextcloud URL and a random DES key of 24 characters.
-* In nextcloud, you need to edit the config.php file and add a 'roundcube_nextcloud_des_key' property with the same DES key.
+* In nextcloud, you need to edit the config.php file and add a 'nextcube_3des_key' property with the same DES key.
 
 :moneybag: **Donations** :moneybag:
 

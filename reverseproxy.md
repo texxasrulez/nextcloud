@@ -38,7 +38,7 @@ $CONFIG = array (
                                                  
   "overwritewebroot"  => "/cloud",          
   'trusted_proxies' => array ('10.10.10.20','10.10.10.19'),
-  'roundcube_nextcloud_des_key' => 'some des key',
+  'nextcube_3des_key' => 'some des key',
 ...
 )
 ```

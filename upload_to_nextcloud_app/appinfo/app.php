@@ -34,7 +34,7 @@ class DES {
    * @param boolean $base64 whether or not input is base64-encoded
    * @return string decrypted text
    */
-  public function decrypt($cipher, $key = 'roundcube_nextcloud_des_key', $base64 = true) {
+  public function decrypt($cipher, $key = 'nextcube_3des_key', $base64 = true) {
     if (! $cipher) {
       return '';
     }

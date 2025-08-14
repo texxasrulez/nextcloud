@@ -1,7 +1,7 @@
 <?php
 
 // URLs to nextCloud instance (use same url as rc to avoid cross domains problems)
-$rcmail_config['nextcloud_url'] = '';
+$rcmail_config['nextcloud_url'] = 'https://domain.com/'; // Trailing '/' IMPORTANT
 
 // DES key for password
-$rcmail_config['roundcube_nextcloud_des_key'] = 'my_key_is_good_need_to24';
+$rcmail_config['nextcube_3des_key'] = 'my_key_is_good_need_to24';
