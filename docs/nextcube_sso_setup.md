@@ -33,7 +33,7 @@ Roundcube (Server) Steps
    - Content:
      <?php
      $rcmail_config['nextcloud_url'] = 'https://mail.example.com/cloud';
-     $rcmail_config['nextcube_3des_key'] = 'my_key_is_good_need_to24';
+     $rcmail_config['roundcube_nextcloud_des_key'] = 'my_key_is_good_need_to24';
      // Optional debug: write verbose logs to logs/nextcube
      $rcmail_config['nextcube_debug'] = true;
 
@@ -53,7 +53,7 @@ Nextcloud (Server) Steps
 2. Set the SAME 24-char DES key in Nextcloud:
    - File: /var/www/nextcloud/config/config.php
    - Inside the returned array, add:
-     'nextcube_3des_key' => 'my_key_is_good_need_to24',
+     'roundcube_nextcloud_des_key' => 'my_key_is_good_need_to24',
 
 3. Reverse proxy Nextcloud under the Roundcube origin (example path `/cloud`):
    - In your Roundcube vhost, proxy `/cloud` → Nextcloud.

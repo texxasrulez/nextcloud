@@ -1,0 +1,7 @@
+/.settings/
+/.buildpath
+/.project
+/config.inc.php
+
+# Files that I don't want sneaking past me
+config.inc.php
