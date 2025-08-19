@@ -1,5 +1,5 @@
 {
-    "name": "nextcloud",
+    "name": "texxasrulez/roundcube-plugin-nextcloud",
     "type": "roundcube-plugin",
     "description": "Embed nextCloud inside your Roundcube with user authentication",
     "homepage": "https://github.com/texxasrulez/roundcube-plugin-nextcloud",
