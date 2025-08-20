@@ -1,0 +1,45 @@
+﻿/* CSS for NextCloud "Summer-Larry" Skin */
+
+#taskbar a.button-nextcloud span.button-inner
+{
+  background: url(images/nextcloud_button.png) 3px 0px no-repeat;
+  height: 18px;
+}
+
+#taskbar a.button-nextcloud:hover span.button-inner,                                                                                                                      
+#taskbar a.button-nextcloud.button-selected span.button-inner
+{
+  background: url(images/nextcloud_button_selected.png) 3px 0px no-repeat;
+  height: 18px;
+}
+
+#page-switch .join-button, #page-switch .more-button {
+	margin-right: 20px;
+}
+
+#nextcloud_frame {
+	width: 99.9%;
+	height: 99.9%;
+	border: 2px solid #ccb159;
+	border-radius: 4px;
+	overflow: auto;
+	box-shadow: 0 0 2px #968143;
+}
+
+#wait_box {
+	background-color: transparent;
+	border-radius: 4px;
+	border: none;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	box-shadow: none;
+}
+
+#img_wait_box {
+	background: url(images/wait-big.gif) center center no-repeat;
+	height: 100%;
+	width: 100%;
+}

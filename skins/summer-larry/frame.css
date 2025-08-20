@@ -1,0 +1,13 @@
+﻿/* CSS for NextCloud "Summer-Larry" Skin */
+
+.minimal #mainscreen {
+    top: 80px;
+}
+
+#mainscreen {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 2px;
+    bottom: 2px;
+}

@@ -1,0 +1,31 @@
+﻿/* CSS for NextCloud "Classic" Skin */
+
+#taskbar a.button-nextcloud {
+  background: url(images/nextcloud_button.png) 0px 0px no-repeat;
+}
+
+#page-switch .join-button, #page-switch .more-button {
+	margin-right: 20px;
+}
+
+#nextcloud_frame {
+	height: 99.5%;
+	width: 99.5%;
+	position: absolute;
+}
+
+#wait_box {
+	background-color: #fff;
+	border: 1px solid grey;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+#img_wait_box {
+	background: url(images/wait-big.gif) center center no-repeat;
+	height: 100%;
+	width: 100%;
+}
