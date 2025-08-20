@@ -3,7 +3,11 @@
     "type": "roundcube-plugin",
     "description": "Embed nextCloud inside your Roundcube with user authentication",
     "homepage": "https://github.com/texxasrulez/nextcloud",
-    "license": "GPL-3.0-only",
+  "support": {
+    "issues": "https://github.com/texxasrulez/account_details/issues",
+    "source": "https://github.com/texxasrulez/account_details"
+  },
+  "license": "GPL-3.0",
     "version": "0.3.1",
     "authors": [
         {
