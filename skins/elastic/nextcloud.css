@@ -13,9 +13,9 @@
 }
 
 #wait_box {
-	background-color: inherit;
+	background-color: #fff;
 	border-radius: 5px;
-	border: 1px solid inherit;
+	border: 1px solid grey;
 	height: 50px;
 	width: 50px;
 	position: absolute;
