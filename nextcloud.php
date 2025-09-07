@@ -18,7 +18,21 @@ class nextcloud extends rcube_plugin {
   /**
    * Initialize plugin
    */
-  function init() {
+  function init()
+    {
+        $rc = rcmail::get_instance();
+        $task = (string)$rc->task;
+        $action = (string)$rc->action;
+        if ($task === 'settings' && (strpos($action, 'plugin.password') === 0 || $action === 'password')) {
+            $this->add_texts('localization/', true);
+            $this->include_stylesheet('nextcloud_password_note.css');
+            $this->include_script('js/nextcloud_password_note.js');
+            $rc->output->set_env('nextcloud_pw_note_enabled', true);
+            $rc->output->set_env('nextcloud_labels', array(
+                'nc_reminder' => $this->gettext('nc_reminder'),
+            ));
+        }
+
     $rcmail = rcmail::get_instance();
 
     // Load the configuration
