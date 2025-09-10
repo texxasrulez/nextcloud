@@ -17,19 +17,31 @@ Install
 * Add nextcloud to $config['plugins'] in your Roundcube config
 * Upload contents of upload_to_nextcloud_apps into your apps directory for Nextcloud and enable plugin within Nextcloud.
 
+
 NB: When downloading the plugin from GitHub you will need to create a
 directory called nextcloud and place the files in there,
 ignoring the root directory in the downloaded archive directory in the
 downloaded archive.
 
-* To avoid cross-domain errors you should use the same url (domain), no subdomains either, for Roundcube and NextCloud (See the [reverse proxy documentation](reverseproxy.md), to use nextcloud and Roundcube on separate servers with Apache)
-* Add and enable "roundcube_external" apps to your nextcloud instance (in nextcloud/apps/)
-
 Configuration
 -------------
 
 * In Roundcube plugin you need to rename config.inc.php.dist to config.inc.php. And configure your nextcloud URL and a random DES key of 24 characters.
-* In nextcloud, you need to edit the config.php file and add a 'nextcube_3des_key' property with the same DES key.
+* To avoid cross-domain errors you should use the same url (domain), no subdomains either, for Roundcube and NextCloud (See the [reverse proxy documentation](reverseproxy.md), to use nextcloud and Roundcube on separate servers with Apache)
+* Add and enable "roundcube_external" apps to your nextcloud instance (in nextcloud/apps/)
+* Edit Nextcloud's config/config.php and add this right below the 'secret' => '', entry:
+```
+  'app_install_overwrite' => 
+  array (
+    0 => 'nextcube_external',
+  ),
+```
+* Add this line anywhere in config:
+```
+  'nextcube_3des_key' => '24_key_to_match_rc-plugin',
+```
+
+Save and you should be good to go.
 
 :moneybag: **Donations** :moneybag:
 
