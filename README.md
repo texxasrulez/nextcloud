@@ -1,11 +1,11 @@
 # Plugin to embed NextCloud within Roundcube
 
-[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/nextcloud?style=flat-square)](https://packagist.org/packages/texxasrulez/nextcloud)
-[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/nextcloud?style=flat-square)](https://packagist.org/packages/texxasrulez/nextcloud)
-[![Project license](https://img.shields.io/github/license/texxasrulez/nextcloud?style=flat-square)](https://github.com/texxasrulez/nextcloud/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/nextcloud?style=flat-square&logo=github)](https://github.com/texxasrulez/nextcloud/stargazers)
+[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/nextcloud?style=plastic)](https://packagist.org/packages/texxasrulez/nextcloud)
+[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/nextcloud?style=plastic&logo=packagist&logoColor=white)](https://packagist.org/packages/texxasrulez/nextcloud)
+[![Project license](https://img.shields.io/github/license/texxasrulez/nextcloud?style=plastic)](https://github.com/texxasrulez/nextcloud/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/nextcloud?style=plastic&logo=github)](https://github.com/texxasrulez/nextcloud/stargazers)
 [![issues](https://img.shields.io/github/issues/texxasrulez/nextcloud)](https://github.com/texxasrulez/nextcloud/issues)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/texxasrulez)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 
 Open nextcloud instance directly in Roundcube with authentication
