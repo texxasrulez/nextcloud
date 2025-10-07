@@ -1,12 +1,13 @@
 # Plugin to embed NextCloud within Roundcube
 
-[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/nextcloud?style=plastic)](https://packagist.org/packages/texxasrulez/nextcloud)
-[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/nextcloud?style=plastic&logo=packagist&logoColor=white)](https://packagist.org/packages/texxasrulez/nextcloud)
-[![Project license](https://img.shields.io/github/license/texxasrulez/nextcloud?style=plastic)](https://github.com/texxasrulez/nextcloud/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/nextcloud?style=plastic&logo=github)](https://github.com/texxasrulez/nextcloud/stargazers)
-[![issues](https://img.shields.io/github/issues/texxasrulez/nextcloud?style=plastic)](https://github.com/texxasrulez/nextcloud/issues)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-money_please-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
-
+[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/nextcloud?style=plastic&labelColor=blue&color=gold)](https://packagist.org/packages/texxasrulez/nextcloud)
+[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/nextcloud?style=plastic&logo=packagist&logoColor=white&labelColor=blue&color=limegreen)](https://packagist.org/packages/texxasrulez/nextcloud)
+[![Project license](https://img.shields.io/github/license/texxasrulez/nextcloud?style=plastic&labelColor=blue&color=coral)](https://github.com/texxasrulez/nextcloud/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/nextcloud?style=plastic&logo=github&labelColor=blue&color=deepskyblue)](https://github.com/texxasrulez/nextcloud/stargazers)
+[![issues](https://img.shields.io/github/issues/texxasrulez/nextcloud?style=plastic&labelColor=blue&color=aqua)](https://github.com/texxasrulez/nextcloud/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/texxasrulez/nextcloud?style=plastic&logo=github&logoColor=white&labelColor=blue&color=orchid)](https://github.com/texxasrulez/nextcloud/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/texxasrulez/nextcloud?style=plastic&logo=github&logoColor=white&labelColor=blue&color=darkorange)](https://github.com/texxasrulez/nextcloud/forks)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-money_please-blue.svg?style=plastic&labelColor=blue&color=forestgreen&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 Open nextcloud instance directly in Roundcube with authentication
 
