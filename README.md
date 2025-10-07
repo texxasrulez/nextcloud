@@ -5,7 +5,7 @@
 [![Project license](https://img.shields.io/github/license/texxasrulez/nextcloud?style=plastic)](https://github.com/texxasrulez/nextcloud/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/texxasrulez/nextcloud?style=plastic&logo=github)](https://github.com/texxasrulez/nextcloud/stargazers)
 [![issues](https://img.shields.io/github/issues/texxasrulez/nextcloud?style=plastic)](https://github.com/texxasrulez/nextcloud/issues)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-money_please-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 
 Open nextcloud instance directly in Roundcube with authentication
